@@ -75,6 +75,7 @@
   </style>
 </noscript>
 
+  <style> #fireworks {position: fixed; top: 0px; z-index: 9999; } </style>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -370,11 +371,9 @@
 
   
 
-  
-    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-    <script type="text/javascript" src="/js/src/fireworks.js"></script>
-  
+  <div id="fireworks"></div>
+  <script src="js/sketch.min.js"></script>
+  <script src="js/fireworks.js"></script>
   <script src="/live2d-widget/autoload.js"></script>
 </body>
 </html>
